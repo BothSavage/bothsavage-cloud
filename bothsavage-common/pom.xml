@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.bothsavage</groupId>
+        <artifactId>bothsavage</artifactId>
+        <version>3.7.1-JDK8</version>
+    </parent>
+
+    <artifactId>bothsavage-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>bothsavage 公共聚合模块</description>
+
+    <modules>
+        <module>bothsavage-common-bom</module>
+        <module>bothsavage-common-core</module>
+        <module>bothsavage-common-datasource</module>
+        <module>bothsavage-common-job</module>
+        <module>bothsavage-common-log</module>
+        <module>bothsavage-common-mybatis</module>
+        <module>bothsavage-common-oss</module>
+        <module>bothsavage-common-seata</module>
+        <module>bothsavage-common-security</module>
+        <module>bothsavage-common-feign</module>
+        <module>bothsavage-common-swagger</module>
+        <module>bothsavage-common-xss</module>
+    </modules>
+</project>

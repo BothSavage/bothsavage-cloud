@@ -1,0 +1,7 @@
+com.bothsavage.common.security.service.PigUserDetailsServiceImpl
+com.bothsavage.common.security.service.PigAppUserDetailsServiceImpl
+com.bothsavage.common.security.service.PigRedisOAuth2AuthorizationService
+com.bothsavage.common.security.service.PigRedisOAuth2AuthorizationConsentService
+com.bothsavage.common.security.component.PigSecurityInnerAspect
+com.bothsavage.common.security.component.PigSecurityMessageSourceConfiguration
+com.bothsavage.common.security.service.PigRemoteRegisteredClientRepository
