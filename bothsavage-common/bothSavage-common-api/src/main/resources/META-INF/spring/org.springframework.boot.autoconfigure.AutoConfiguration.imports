@@ -1,6 +1,0 @@
-com.bothSavage.common.core.config.TaskExecutorConfiguration
-com.bothSavage.common.core.config.JacksonConfiguration
-com.bothSavage.common.core.config.RedisTemplateConfiguration
-com.bothSavage.common.core.config.RestTemplateConfiguration
-com.bothSavage.common.core.util.SpringContextHolder
-com.bothSavage.common.core.config.WebMvcConfiguration

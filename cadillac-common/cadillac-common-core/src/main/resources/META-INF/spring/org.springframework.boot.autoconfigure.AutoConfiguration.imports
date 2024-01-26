@@ -1,0 +1,6 @@
+com.cadillac.common.core.config.TaskExecutorConfiguration
+com.cadillac.common.core.config.JacksonConfiguration
+com.cadillac.common.core.config.RedisTemplateConfiguration
+com.cadillac.common.core.config.RestTemplateConfiguration
+com.cadillac.common.core.util.SpringContextHolder
+com.cadillac.common.core.config.WebMvcConfiguration

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+    <groupId>com.cadillac</groupId>
+    <artifactId>cadillac-common</artifactId>
+    <version>9.9.9</version>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <description>公共组件模块,version固定</description>
+
+
+    <modules>
+        <module>cadillac-common-bom</module>
+        <module>cadillac-common-core</module>
+        <module>cadillac-common-datasource</module>
+        <module>cadillac-common-job</module>
+        <module>cadillac-common-log</module>
+        <module>cadillac-common-mybatis</module>
+        <module>cadillac-common-oss</module>
+        <module>cadillac-common-seata</module>
+        <module>cadillac-common-security</module>
+        <module>cadillac-common-feign</module>
+        <module>cadillac-common-swagger</module>
+        <module>cadillac-common-xss</module>
+    </modules>
+</project>

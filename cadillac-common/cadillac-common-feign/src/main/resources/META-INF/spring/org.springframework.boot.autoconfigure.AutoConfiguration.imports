@@ -1,0 +1,4 @@
+com.cadillac.common.feign.PigFeignAutoConfiguration
+com.cadillac.common.feign.PigFeignRetryAutoConfiguration
+com.cadillac.common.feign.sentinel.SentinelAutoConfiguration
+com.cadillac.common.feign.sentinel.handle.GlobalBizExceptionHandler

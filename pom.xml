@@ -3,16 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bothSavage</groupId>
-    <artifactId>bothSavage-cloud</artifactId>
-    <name>bothSavage-cloud</name>
+    <groupId>com.cadillac</groupId>
+    <artifactId>cadillac-cloud</artifactId>
+    <name>cadillac-cloud</name>
     <version>9.9.9</version>
     <packaging>pom</packaging>
     <description>项目公用目录模块,没有子类父类关系,version不变</description>
 
     <modules>
-        <module>bothSavage-common</module>
-        <module>bothSavage-component</module>
+        <module>cadillac-common</module>
+        <module>cadillac-component</module>
     </modules>
 
 </project>

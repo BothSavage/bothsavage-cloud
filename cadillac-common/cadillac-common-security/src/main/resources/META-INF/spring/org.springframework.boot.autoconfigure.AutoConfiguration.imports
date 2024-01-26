@@ -1,0 +1,7 @@
+com.cadillac.common.security.service.PigUserDetailsServiceImpl
+com.cadillac.common.security.service.PigAppUserDetailsServiceImpl
+com.cadillac.common.security.service.PigRedisOAuth2AuthorizationService
+com.cadillac.common.security.service.PigRedisOAuth2AuthorizationConsentService
+com.cadillac.common.security.component.PigSecurityInnerAspect
+com.cadillac.common.security.component.PigSecurityMessageSourceConfiguration
+com.cadillac.common.security.service.PigRemoteRegisteredClientRepository
