@@ -1,4 +1,4 @@
-package com.bothsavage.common.mybatis.handler;
+package com.bothSavage.common.mybatis.handler;
 
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.util.ArrayUtil;

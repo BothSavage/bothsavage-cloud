@@ -1,5 +1,5 @@
 server:
-  port: 8848   #如何修改 bothsavage-register 启动端口 >: https://t.cn/A6XGvTdb
+  port: 8848   #如何修改 bothSavage-register 启动端口 >: https://t.cn/A6XGvTdb
   tomcat:
     basedir: logs
   servlet:
@@ -10,7 +10,7 @@ db:
   user: ${MYSQL_USER:root}
   password: ${MYSQL_PWD:root}
   url:
-    0: jdbc:mysql://${MYSQL_HOST:bothsavage-mysql}:${MYSQL_PORT:3306}/${MYSQL_DB:bothsavage_config}?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    0: jdbc:mysql://${MYSQL_HOST:bothSavage-mysql}:${MYSQL_PORT:3306}/${MYSQL_DB:bothSavage_config}?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
 
 
 nacos:
@@ -35,9 +35,9 @@ spring:
   boot:  # 接入 spring boot admin
     admin:
       client:
-        url: http://bothsavage-monitor:5001
-        username: bothsavage
-        password: bothsavage
+        url: http://bothSavage-monitor:5001
+        username: bothSavage
+        password: bothSavage
         instance:
           service-host-type: ip
   application:

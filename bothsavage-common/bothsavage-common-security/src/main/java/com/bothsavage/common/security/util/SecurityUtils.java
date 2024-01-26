@@ -1,11 +1,11 @@
 
 
-package com.bothsavage.common.security.util;
+package com.bothSavage.common.security.util;
 
 import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.core.util.StrUtil;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.security.service.PigUser;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.security.service.PigUser;
 import lombok.experimental.UtilityClass;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

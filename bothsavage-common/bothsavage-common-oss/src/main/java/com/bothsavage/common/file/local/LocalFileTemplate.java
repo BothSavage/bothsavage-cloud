@@ -1,11 +1,11 @@
-package com.bothsavage.common.file.local;
+package com.bothSavage.common.file.local;
 
 import cn.hutool.core.io.FileUtil;
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
-import com.bothsavage.common.file.core.FileProperties;
-import com.bothsavage.common.file.core.FileTemplate;
+import com.bothSavage.common.file.core.FileProperties;
+import com.bothSavage.common.file.core.FileTemplate;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 

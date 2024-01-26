@@ -1,7 +1,7 @@
 
-package com.bothsavage.gateway.config;
+package com.bothSavage.gateway.config;
 
-import com.bothsavage.gateway.handler.ImageCodeHandler;
+import com.bothSavage.gateway.handler.ImageCodeHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;

@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.file.local;
+package com.bothSavage.common.file.local;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

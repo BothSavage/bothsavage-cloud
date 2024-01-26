@@ -1,4 +1,4 @@
-package com.bothsavage.common.job.properties;
+package com.bothSavage.common.job.properties;
 
 import lombok.Data;
 

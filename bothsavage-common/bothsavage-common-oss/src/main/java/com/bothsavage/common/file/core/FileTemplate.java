@@ -1,4 +1,4 @@
-package com.bothsavage.common.file.core;
+package com.bothSavage.common.file.core;
 
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.S3Object;

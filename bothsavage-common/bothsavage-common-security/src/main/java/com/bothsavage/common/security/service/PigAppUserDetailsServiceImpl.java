@@ -1,12 +1,12 @@
 
-package com.bothsavage.common.security.service;
+package com.bothSavage.common.security.service;
 
-import com.bothsavage.admin.api.dto.UserDTO;
-import com.bothsavage.admin.api.dto.UserInfo;
-import com.bothsavage.admin.api.feign.RemoteUserService;
-import com.bothsavage.common.core.constant.CacheConstants;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.util.R;
+import com.bothSavage.admin.api.dto.UserDTO;
+import com.bothSavage.admin.api.dto.UserInfo;
+import com.bothSavage.admin.api.feign.RemoteUserService;
+import com.bothSavage.common.core.constant.CacheConstants;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.util.R;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -53,12 +53,12 @@ public class PigAppUserDetailsServiceImpl implements PigUserDetailsService {
 
 	/**
 	 * check-token 使用
-	 * @param bothsavageUser user
+	 * @param bothSavageUser user
 	 * @return
 	 */
 	@Override
-	public UserDetails loadUserByUser(PigUser bothsavageUser) {
-		return this.loadUserByUsername(bothsavageUser.getPhone());
+	public UserDetails loadUserByUser(PigUser bothSavageUser) {
+		return this.loadUserByUsername(bothSavageUser.getPhone());
 	}
 
 	/**

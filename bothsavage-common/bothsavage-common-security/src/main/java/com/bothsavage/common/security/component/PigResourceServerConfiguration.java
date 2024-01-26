@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import cn.hutool.core.util.ArrayUtil;
 import lombok.RequiredArgsConstructor;
@@ -27,7 +27,7 @@ public class PigResourceServerConfiguration {
 
 	private final PermitAllUrlProperties permitAllUrl;
 
-	private final PigBearerTokenExtractor bothsavageBearerTokenExtractor;
+	private final PigBearerTokenExtractor bothSavageBearerTokenExtractor;
 
 	private final OpaqueTokenIntrospector customOpaqueTokenIntrospector;
 
@@ -43,7 +43,7 @@ public class PigResourceServerConfiguration {
 			.oauth2ResourceServer(
 					oauth2 -> oauth2.opaqueToken(token -> token.introspector(customOpaqueTokenIntrospector))
 						.authenticationEntryPoint(resourceAuthExceptionEntryPoint)
-						.bearerTokenResolver(bothsavageBearerTokenExtractor))
+						.bearerTokenResolver(bothSavageBearerTokenExtractor))
 			.headers()
 			.frameOptions()
 			.disable()

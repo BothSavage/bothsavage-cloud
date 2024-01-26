@@ -1,7 +1,7 @@
 
-package com.bothsavage.auth;
+package com.bothSavage.auth;
 
-import com.bothsavage.common.feign.annotation.EnablePigFeignClients;
+import com.bothSavage.common.feign.annotation.EnablePigFeignClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

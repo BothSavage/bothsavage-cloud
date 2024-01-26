@@ -1,4 +1,4 @@
-package com.bothsavage.common.mybatis.base;
+package com.bothSavage.common.mybatis.base;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;

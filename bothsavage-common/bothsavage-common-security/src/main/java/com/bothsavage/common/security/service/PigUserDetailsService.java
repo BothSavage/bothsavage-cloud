@@ -1,13 +1,13 @@
-package com.bothsavage.common.security.service;
+package com.bothSavage.common.security.service;
 
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.StrUtil;
-import com.bothsavage.admin.api.dto.UserInfo;
-import com.bothsavage.admin.api.entity.SysUser;
-import com.bothsavage.common.core.constant.CommonConstants;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.util.R;
-import com.bothsavage.common.core.util.RetOps;
+import com.bothSavage.admin.api.dto.UserInfo;
+import com.bothSavage.admin.api.entity.SysUser;
+import com.bothSavage.common.core.constant.CommonConstants;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.util.R;
+import com.bothSavage.common.core.util.RetOps;
 import org.springframework.core.Ordered;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
@@ -73,11 +73,11 @@ public interface PigUserDetailsService extends UserDetailsService, Ordered {
 
 	/**
 	 * 通过用户实体查询
-	 * @param bothsavageUser user
+	 * @param bothSavageUser user
 	 * @return
 	 */
-	default UserDetails loadUserByUser(PigUser bothsavageUser) {
-		return this.loadUserByUsername(bothsavageUser.getUsername());
+	default UserDetails loadUserByUser(PigUser bothSavageUser) {
+		return this.loadUserByUsername(bothSavageUser.getUsername());
 	}
 
 }

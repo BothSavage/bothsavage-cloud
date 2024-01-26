@@ -1,6 +1,6 @@
-package com.bothsavage.auth.support.base;
+package com.bothSavage.auth.support.base;
 
-import com.bothsavage.common.security.util.OAuth2EndpointUtils;
+import com.bothSavage.common.security.util.OAuth2EndpointUtils;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

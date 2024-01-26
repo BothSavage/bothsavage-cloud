@@ -1,4 +1,4 @@
-package com.bothsavage.auth.support.handler;
+package com.bothSavage.auth.support.handler;
 
 import cn.hutool.core.util.StrUtil;
 import javax.servlet.http.HttpServletRequest;

@@ -5,15 +5,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
-    <artifactId>bothsavage-auth</artifactId>
+    <artifactId>bothSavage-auth</artifactId>
     <packaging>jar</packaging>
 
-    <description>bothsavage 认证授权中心，基于 spring security oAuth2</description>
+    <description>bothSavage 认证授权中心，基于 spring security oAuth2</description>
 
     <dependencies>
         <!--注册中心客户端-->
@@ -28,17 +28,17 @@
         </dependency>
         <!--断路器依赖-->
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-feign</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-feign</artifactId>
         </dependency>
         <!--upms api、model 模块-->
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-upms-api</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-upms-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-security</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-security</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -56,8 +56,8 @@
         </dependency>
         <!-- log -->
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-log</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-log</artifactId>
         </dependency>
     </dependencies>
 

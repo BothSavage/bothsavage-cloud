@@ -1,10 +1,10 @@
 
-package com.bothsavage.common.datasource.config;
+package com.bothSavage.common.datasource.config;
 
 import com.baomidou.dynamic.datasource.creator.DataSourceProperty;
 import com.baomidou.dynamic.datasource.creator.DefaultDataSourceCreator;
 import com.baomidou.dynamic.datasource.provider.AbstractJdbcDataSourceProvider;
-import com.bothsavage.common.datasource.support.DataSourceConstants;
+import com.bothSavage.common.datasource.support.DataSourceConstants;
 import org.jasypt.encryption.StringEncryptor;
 
 import java.sql.ResultSet;

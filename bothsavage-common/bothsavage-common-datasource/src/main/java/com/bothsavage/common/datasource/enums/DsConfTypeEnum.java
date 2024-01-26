@@ -1,4 +1,4 @@
-package com.bothsavage.common.datasource.enums;
+package com.bothSavage.common.datasource.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

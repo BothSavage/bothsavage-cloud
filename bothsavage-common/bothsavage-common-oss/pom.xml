@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage-common</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage-common</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
-    <artifactId>bothsavage-common-oss</artifactId>
+    <artifactId>bothSavage-common-oss</artifactId>
     <packaging>jar</packaging>
 
-    <description>bothsavage 文件系统依赖</description>
+    <description>bothSavage 文件系统依赖</description>
 
     <dependencies>
         <dependency>

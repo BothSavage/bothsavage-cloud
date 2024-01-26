@@ -1,4 +1,4 @@
-package com.bothsavage.auth.support.base;
+package com.bothSavage.auth.support.base;
 
 import lombok.Getter;
 import org.springframework.lang.Nullable;

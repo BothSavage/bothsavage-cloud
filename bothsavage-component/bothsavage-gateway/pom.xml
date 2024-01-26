@@ -5,15 +5,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
-    <artifactId>bothsavage-gateway</artifactId>
+    <artifactId>bothSavage-gateway</artifactId>
     <packaging>jar</packaging>
 
-    <description>bothsavage 服务网关，基于 spring cloud gateway</description>
+    <description>bothSavage 服务网关，基于 spring cloud gateway</description>
 
     <dependencies>
         <!--gateway 网关依赖,内置webflux 依赖-->
@@ -54,16 +54,16 @@
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>caffeine</artifactId>
         </dependency>
-        <!--验证码 源码： https://github.com/bothsavage-mesh/easy-captcha -->
+        <!--验证码 源码： https://github.com/bothSavage-mesh/easy-captcha -->
         <dependency>
-            <groupId>com.bothsavage.plugin</groupId>
+            <groupId>com.bothSavage.plugin</groupId>
             <artifactId>captcha-spring-boot-starter</artifactId>
             <version>${captcha.version}</version>
         </dependency>
         <!-- 工具包依赖 -->
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-core</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-core</artifactId>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>

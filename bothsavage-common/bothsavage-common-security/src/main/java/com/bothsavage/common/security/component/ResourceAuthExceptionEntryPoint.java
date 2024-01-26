@@ -1,9 +1,9 @@
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.bothsavage.common.core.constant.CommonConstants;
-import com.bothsavage.common.core.util.R;
+import com.bothSavage.common.core.constant.CommonConstants;
+import com.bothSavage.common.core.util.R;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.context.MessageSource;

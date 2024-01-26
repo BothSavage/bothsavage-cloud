@@ -1,4 +1,4 @@
-package com.bothsavage.gateway.config;
+package com.bothSavage.gateway.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -18,12 +18,12 @@ import java.util.List;
 public class GatewayConfigProperties {
 
 	/**
-	 * 网关解密登录前端密码 秘钥 {@link com.bothsavage.gateway.filter.PasswordDecoderFilter}
+	 * 网关解密登录前端密码 秘钥 {@link com.bothSavage.gateway.filter.PasswordDecoderFilter}
 	 */
 	private String encodeKey;
 
 	/**
-	 * 网关不需要校验验证码的客户端 {@link com.bothsavage.gateway.filter.ValidateCodeGatewayFilter}
+	 * 网关不需要校验验证码的客户端 {@link com.bothSavage.gateway.filter.ValidateCodeGatewayFilter}
 	 */
 	private List<String> ignoreClients;
 

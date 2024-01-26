@@ -1,11 +1,11 @@
 
 
-package com.bothsavage.common.file.oss;
+package com.bothSavage.common.file.oss;
 
-import com.bothsavage.common.file.core.FileProperties;
-import com.bothsavage.common.file.core.FileTemplate;
-import com.bothsavage.common.file.oss.http.OssEndpoint;
-import com.bothsavage.common.file.oss.service.OssTemplate;
+import com.bothSavage.common.file.core.FileProperties;
+import com.bothSavage.common.file.core.FileTemplate;
+import com.bothSavage.common.file.oss.http.OssEndpoint;
+import com.bothSavage.common.file.oss.service.OssTemplate;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

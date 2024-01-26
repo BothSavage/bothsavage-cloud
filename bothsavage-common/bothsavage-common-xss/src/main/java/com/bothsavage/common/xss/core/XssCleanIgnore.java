@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 import java.lang.annotation.*;
 

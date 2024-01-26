@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.security.service;
+package com.bothSavage.common.security.service;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;

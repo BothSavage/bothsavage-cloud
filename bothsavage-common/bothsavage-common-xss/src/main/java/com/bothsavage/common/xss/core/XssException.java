@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 /**
  * xss 异常，校验模式抛出

@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.feign.annotation;
+package com.bothSavage.common.feign.annotation;
 
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.cloud.openfeign.FeignClientsConfiguration;
@@ -36,7 +36,7 @@ public @interface EnablePigFeignClients {
 	 * package names.
 	 * @return the array of 'basePackages'.
 	 */
-	String[] basePackages() default { "com.bothsavage" };
+	String[] basePackages() default { "com.bothSavage" };
 
 	/**
 	 * Type-safe alternative to {@link #basePackages()} for specifying the packages to

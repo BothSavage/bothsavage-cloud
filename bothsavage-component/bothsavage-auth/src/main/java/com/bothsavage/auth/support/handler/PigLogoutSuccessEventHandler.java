@@ -1,11 +1,11 @@
 
-package com.bothsavage.auth.support.handler;
+package com.bothSavage.auth.support.handler;
 
-import com.bothsavage.admin.api.entity.SysLog;
-import com.bothsavage.common.core.util.SpringContextHolder;
-import com.bothsavage.common.core.util.WebUtils;
-import com.bothsavage.common.log.event.SysLogEvent;
-import com.bothsavage.common.log.util.SysLogUtils;
+import com.bothSavage.admin.api.entity.SysLog;
+import com.bothSavage.common.core.util.SpringContextHolder;
+import com.bothSavage.common.core.util.WebUtils;
+import com.bothSavage.common.log.event.SysLogEvent;
+import com.bothSavage.common.log.util.SysLogUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;
 import org.springframework.http.HttpHeaders;

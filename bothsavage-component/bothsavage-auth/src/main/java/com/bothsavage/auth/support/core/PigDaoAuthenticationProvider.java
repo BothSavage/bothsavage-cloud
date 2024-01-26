@@ -1,10 +1,10 @@
-package com.bothsavage.auth.support.core;
+package com.bothSavage.auth.support.core;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.spring.SpringUtil;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.util.WebUtils;
-import com.bothsavage.common.security.service.PigUserDetailsService;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.util.WebUtils;
+import com.bothSavage.common.security.service.PigUserDetailsService;
 import javax.servlet.http.HttpServletRequest;
 import lombok.SneakyThrows;
 import org.springframework.core.Ordered;

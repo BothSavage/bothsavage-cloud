@@ -1,11 +1,11 @@
 
-package com.bothsavage.common.mybatis;
+package com.bothSavage.common.mybatis;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
-import com.bothsavage.common.mybatis.config.MybatisPlusMetaObjectHandler;
-import com.bothsavage.common.mybatis.plugins.PigPaginationInnerInterceptor;
-import com.bothsavage.common.mybatis.resolver.SqlFilterArgumentResolver;
+import com.bothSavage.common.mybatis.config.MybatisPlusMetaObjectHandler;
+import com.bothSavage.common.mybatis.plugins.PigPaginationInnerInterceptor;
+import com.bothSavage.common.mybatis.resolver.SqlFilterArgumentResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

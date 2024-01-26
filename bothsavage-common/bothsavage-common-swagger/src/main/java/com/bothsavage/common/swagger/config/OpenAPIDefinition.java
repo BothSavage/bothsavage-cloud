@@ -1,7 +1,7 @@
 
-package com.bothsavage.common.swagger.config;
+package com.bothSavage.common.swagger.config;
 
-import com.bothsavage.common.swagger.support.SwaggerProperties;
+import com.bothSavage.common.swagger.support.SwaggerProperties;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.security.OAuthFlow;

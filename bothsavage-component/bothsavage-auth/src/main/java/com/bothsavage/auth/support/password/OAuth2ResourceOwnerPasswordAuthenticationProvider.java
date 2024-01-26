@@ -1,6 +1,6 @@
-package com.bothsavage.auth.support.password;
+package com.bothSavage.auth.support.password;
 
-import com.bothsavage.auth.support.base.OAuth2ResourceOwnerBaseAuthenticationProvider;
+import com.bothSavage.auth.support.base.OAuth2ResourceOwnerBaseAuthenticationProvider;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.security.authentication.AuthenticationManager;

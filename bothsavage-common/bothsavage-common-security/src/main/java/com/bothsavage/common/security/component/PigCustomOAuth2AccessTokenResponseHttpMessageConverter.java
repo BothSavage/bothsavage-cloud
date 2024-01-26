@@ -1,7 +1,7 @@
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.bothsavage.common.core.util.SpringContextHolder;
+import com.bothSavage.common.core.util.SpringContextHolder;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.http.HttpOutputMessage;

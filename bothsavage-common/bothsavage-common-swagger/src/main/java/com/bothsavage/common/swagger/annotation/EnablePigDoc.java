@@ -1,15 +1,15 @@
 
-package com.bothsavage.common.swagger.annotation;
+package com.bothSavage.common.swagger.annotation;
 
-import com.bothsavage.common.swagger.config.OpenAPIDefinitionImportSelector;
-import com.bothsavage.common.swagger.support.SwaggerProperties;
+import com.bothSavage.common.swagger.config.OpenAPIDefinitionImportSelector;
+import com.bothSavage.common.swagger.support.SwaggerProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
 
 /**
- * 开启 bothsavage spring doc
+ * 开启 bothSavage spring doc
  *
 
  * @date 2022-03-26

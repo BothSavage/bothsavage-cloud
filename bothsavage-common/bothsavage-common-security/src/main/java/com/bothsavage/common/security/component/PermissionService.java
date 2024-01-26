@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import cn.hutool.core.util.ArrayUtil;
 import org.springframework.security.core.Authentication;

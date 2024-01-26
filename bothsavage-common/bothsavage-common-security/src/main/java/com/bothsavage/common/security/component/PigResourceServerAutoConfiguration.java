@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import feign.RequestInterceptor;
@@ -34,7 +34,7 @@ public class PigResourceServerAutoConfiguration {
 	 * @return BearerTokenExtractor
 	 */
 	@Bean
-	public PigBearerTokenExtractor bothsavageBearerTokenExtractor(PermitAllUrlProperties urlProperties) {
+	public PigBearerTokenExtractor bothSavageBearerTokenExtractor(PermitAllUrlProperties urlProperties) {
 		return new PigBearerTokenExtractor(urlProperties);
 	}
 

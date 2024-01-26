@@ -1,6 +1,6 @@
-package com.bothsavage.common.job.annotation;
+package com.bothSavage.common.job.annotation;
 
-import com.bothsavage.common.job.XxlJobAutoConfiguration;
+import com.bothSavage.common.job.XxlJobAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

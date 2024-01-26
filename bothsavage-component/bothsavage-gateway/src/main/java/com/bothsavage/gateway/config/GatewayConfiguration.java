@@ -1,11 +1,11 @@
-package com.bothsavage.gateway.config;
+package com.bothSavage.gateway.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.bothsavage.gateway.filter.PasswordDecoderFilter;
-import com.bothsavage.gateway.filter.PigRequestGlobalFilter;
-import com.bothsavage.gateway.filter.ValidateCodeGatewayFilter;
-import com.bothsavage.gateway.handler.GlobalExceptionHandler;
-import com.bothsavage.gateway.handler.ImageCodeHandler;
+import com.bothSavage.gateway.filter.PasswordDecoderFilter;
+import com.bothSavage.gateway.filter.PigRequestGlobalFilter;
+import com.bothSavage.gateway.filter.ValidateCodeGatewayFilter;
+import com.bothSavage.gateway.handler.GlobalExceptionHandler;
+import com.bothSavage.gateway.handler.ImageCodeHandler;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,7 +26,7 @@ public class GatewayConfiguration {
 	}
 
 	@Bean
-	public PigRequestGlobalFilter bothsavageRequestGlobalFilter() {
+	public PigRequestGlobalFilter bothSavageRequestGlobalFilter() {
 		return new PigRequestGlobalFilter();
 	}
 

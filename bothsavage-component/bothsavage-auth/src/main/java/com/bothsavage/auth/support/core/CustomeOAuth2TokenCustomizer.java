@@ -1,7 +1,7 @@
-package com.bothsavage.auth.support.core;
+package com.bothSavage.auth.support.core;
 
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.security.service.PigUser;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.security.service.PigUser;
 import org.springframework.security.oauth2.server.authorization.token.OAuth2TokenClaimsContext;
 import org.springframework.security.oauth2.server.authorization.token.OAuth2TokenClaimsSet;
 import org.springframework.security.oauth2.server.authorization.token.OAuth2TokenCustomizer;
@@ -29,10 +29,10 @@ public class CustomeOAuth2TokenCustomizer implements OAuth2TokenCustomizer<OAuth
 			return;
 		}
 
-		PigUser bothsavageUser = (PigUser) context.getPrincipal().getPrincipal();
-		claims.claim(SecurityConstants.DETAILS_USER, bothsavageUser);
-		claims.claim(SecurityConstants.DETAILS_USER_ID, bothsavageUser.getId());
-		claims.claim(SecurityConstants.USERNAME, bothsavageUser.getUsername());
+		PigUser bothSavageUser = (PigUser) context.getPrincipal().getPrincipal();
+		claims.claim(SecurityConstants.DETAILS_USER, bothSavageUser);
+		claims.claim(SecurityConstants.DETAILS_USER_ID, bothSavageUser.getId());
+		claims.claim(SecurityConstants.USERNAME, bothSavageUser.getUsername());
 	}
 
 }

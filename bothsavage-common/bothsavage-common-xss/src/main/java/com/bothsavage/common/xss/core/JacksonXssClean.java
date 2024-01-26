@@ -1,12 +1,12 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 import cn.hutool.core.util.ArrayUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import com.bothsavage.common.xss.config.PigXssProperties;
-import com.bothsavage.common.xss.utils.XssUtil;
+import com.bothSavage.common.xss.config.PigXssProperties;
+import com.bothSavage.common.xss.utils.XssUtil;
 
 import java.io.IOException;
 import java.util.Objects;

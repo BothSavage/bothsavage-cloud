@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.xss.utils;
+package com.bothSavage.common.xss.utils;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Attribute;

@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 /**
  * 利用 ThreadLocal 缓存线程间的数据

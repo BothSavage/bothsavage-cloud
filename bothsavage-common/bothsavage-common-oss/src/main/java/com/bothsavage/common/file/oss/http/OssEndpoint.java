@@ -1,11 +1,11 @@
 
 
-package com.bothsavage.common.file.oss.http;
+package com.bothSavage.common.file.oss.http;
 
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
-import com.bothsavage.common.file.oss.service.OssTemplate;
+import com.bothSavage.common.file.oss.service.OssTemplate;
 import lombok.AllArgsConstructor;
 import lombok.Cleanup;
 import lombok.SneakyThrows;

@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;

@@ -1,4 +1,4 @@
-package com.bothsavage.common.security.util;
+package com.bothSavage.common.security.util;
 
 import cn.hutool.core.map.MapUtil;
 import lombok.experimental.UtilityClass;

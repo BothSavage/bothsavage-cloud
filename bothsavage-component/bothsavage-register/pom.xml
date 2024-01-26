@@ -5,14 +5,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
-    <artifactId>bothsavage-register</artifactId>
+    <artifactId>bothSavage-register</artifactId>
     <packaging>jar</packaging>
-    <name>bothsavage-register</name>
+    <name>bothSavage-register</name>
     <description>nacos 注册配置中心</description>
 
     <properties>

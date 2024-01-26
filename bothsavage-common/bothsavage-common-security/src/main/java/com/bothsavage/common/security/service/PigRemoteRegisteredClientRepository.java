@@ -1,12 +1,12 @@
-package com.bothsavage.common.security.service;
+package com.bothSavage.common.security.service;
 
 import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.StrUtil;
-import com.bothsavage.admin.api.entity.SysOauthClientDetails;
-import com.bothsavage.admin.api.feign.RemoteClientDetailsService;
-import com.bothsavage.common.core.constant.CacheConstants;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.util.RetOps;
+import com.bothSavage.admin.api.entity.SysOauthClientDetails;
+import com.bothSavage.admin.api.feign.RemoteClientDetailsService;
+import com.bothSavage.common.core.constant.CacheConstants;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.util.RetOps;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.cache.annotation.Cacheable;

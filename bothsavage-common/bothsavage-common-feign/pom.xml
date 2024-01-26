@@ -5,20 +5,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage-common</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage-common</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>bothsavage-common-feign</artifactId>
+    <artifactId>bothSavage-common-feign</artifactId>
     <description>feign-sentinel服务降级熔断、限流组件</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-core</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-core</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

@@ -1,7 +1,7 @@
-package com.bothsavage.common.job;
+package com.bothSavage.common.job;
 
-import com.bothsavage.common.job.properties.XxlExecutorProperties;
-import com.bothsavage.common.job.properties.XxlJobProperties;
+import com.bothSavage.common.job.properties.XxlExecutorProperties;
+import com.bothSavage.common.job.properties.XxlJobProperties;
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -59,7 +59,7 @@ public class XxlJobAutoConfiguration {
 		xxlJobSpringExecutor.setLogPath(executor.getLogPath());
 		xxlJobSpringExecutor.setLogRetentionDays(executor.getLogRetentionDays());
 
-		// 如果配置为空则获取注册中心的服务列表 "http://bothsavage-xxl:9080/xxl-job-admin"
+		// 如果配置为空则获取注册中心的服务列表 "http://bothSavage-xxl:9080/xxl-job-admin"
 		if (!StringUtils.hasText(xxlJobProperties.getAdmin().getAddresses())) {
 			String serverList = discoveryClient.getServices()
 				.stream()

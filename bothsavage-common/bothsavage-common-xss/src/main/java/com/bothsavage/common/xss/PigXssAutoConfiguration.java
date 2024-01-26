@@ -1,12 +1,12 @@
 
 
-package com.bothsavage.common.xss;
+package com.bothSavage.common.xss;
 
 import lombok.RequiredArgsConstructor;
-import com.bothsavage.common.xss.core.DefaultXssCleaner;
-import com.bothsavage.common.xss.core.FormXssClean;
-import com.bothsavage.common.xss.core.JacksonXssClean;
-import com.bothsavage.common.xss.core.XssCleaner;
+import com.bothSavage.common.xss.core.DefaultXssCleaner;
+import com.bothSavage.common.xss.core.FormXssClean;
+import com.bothSavage.common.xss.core.JacksonXssClean;
+import com.bothSavage.common.xss.core.XssCleaner;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -27,29 +27,29 @@ import java.util.List;
  */
 @AutoConfiguration
 @RequiredArgsConstructor
-@EnableConfigurationProperties(com.bothsavage.common.xss.config.PigXssProperties.class)
-@ConditionalOnProperty(prefix = com.bothsavage.common.xss.config.PigXssProperties.PREFIX, name = "enabled",
+@EnableConfigurationProperties(com.bothSavage.common.xss.config.PigXssProperties.class)
+@ConditionalOnProperty(prefix = com.bothSavage.common.xss.config.PigXssProperties.PREFIX, name = "enabled",
 		havingValue = "true", matchIfMissing = true)
 @ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
 public class PigXssAutoConfiguration implements WebMvcConfigurer {
 
-	private final com.bothsavage.common.xss.config.PigXssProperties xssProperties;
+	private final com.bothSavage.common.xss.config.PigXssProperties xssProperties;
 
 	@Bean
 	@ConditionalOnMissingBean
-	public XssCleaner xssCleaner(com.bothsavage.common.xss.config.PigXssProperties properties) {
+	public XssCleaner xssCleaner(com.bothSavage.common.xss.config.PigXssProperties properties) {
 		return new DefaultXssCleaner(properties);
 	}
 
 	@Bean
-	public FormXssClean formXssClean(com.bothsavage.common.xss.config.PigXssProperties properties,
+	public FormXssClean formXssClean(com.bothSavage.common.xss.config.PigXssProperties properties,
 			XssCleaner xssCleaner) {
 		return new FormXssClean(properties, xssCleaner);
 	}
 
 	@Bean
 	public Jackson2ObjectMapperBuilderCustomizer xssJacksonCustomizer(
-			com.bothsavage.common.xss.config.PigXssProperties properties, XssCleaner xssCleaner) {
+			com.bothSavage.common.xss.config.PigXssProperties properties, XssCleaner xssCleaner) {
 		return builder -> builder.deserializerByType(String.class, new JacksonXssClean(properties, xssCleaner));
 	}
 
@@ -59,7 +59,7 @@ public class PigXssAutoConfiguration implements WebMvcConfigurer {
 		if (patterns.isEmpty()) {
 			patterns.add("/**");
 		}
-		com.bothsavage.common.xss.core.XssCleanInterceptor interceptor = new com.bothsavage.common.xss.core.XssCleanInterceptor(
+		com.bothSavage.common.xss.core.XssCleanInterceptor interceptor = new com.bothSavage.common.xss.core.XssCleanInterceptor(
 				xssProperties);
 		registry.addInterceptor(interceptor)
 			.addPathPatterns(patterns)

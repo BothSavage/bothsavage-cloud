@@ -1,4 +1,4 @@
 /**
  * 短信模式
  */
-package com.bothsavage.auth.support.sms;
+package com.bothSavage.auth.support.sms;

@@ -4,17 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bothsavage</groupId>
-    <artifactId>bothsavage-common-bom</artifactId>
+    <groupId>com.bothSavage</groupId>
+    <artifactId>bothSavage-common-bom</artifactId>
     <version>3.7.1-JDK8</version>
     <packaging>pom</packaging>
 
-    <name>bothsavage-common-bom</name>
-    <url>bothsavage cloud parent</url>
-    <description>bothsavage cloud parent</description>
+    <name>bothSavage-common-bom</name>
+    <description>bothSavage cloud parent</description>
 
     <properties>
-        <bothsavage.common.version>${project.version}</bothsavage.common.version>
+        <bothSavage.common.version>${project.version}</bothSavage.common.version>
         <spring-boot.version>2.7.18</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <log4j2.version>2.17.1</log4j2.version>
@@ -45,64 +44,64 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-core</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-core</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-datasource</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-datasource</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-job</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-job</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-log</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-log</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-mybatis</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-mybatis</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-security</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-security</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-feign</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-feign</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-swagger</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-swagger</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-seata</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-seata</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-xss</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-xss</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-common-oss</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-common-oss</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.bothsavage</groupId>
-                <artifactId>bothsavage-upms-api</artifactId>
-                <version>${bothsavage.common.version}</version>
+                <groupId>com.bothSavage</groupId>
+                <artifactId>bothSavage-upms-api</artifactId>
+                <version>${bothSavage.common.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.mysql</groupId>
@@ -144,7 +143,7 @@
             </dependency>
             <!-- excel 导入导出 -->
             <dependency>
-                <groupId>com.bothsavage.excel</groupId>
+                <groupId>com.bothSavage.excel</groupId>
                 <artifactId>excel-spring-boot-starter</artifactId>
                 <version>${excel.version}</version>
             </dependency>
@@ -168,7 +167,7 @@
             </dependency>
             <!--oss-->
             <dependency>
-                <groupId>com.bothsavage.plugin</groupId>
+                <groupId>com.bothSavage.plugin</groupId>
                 <artifactId>oss-spring-boot-starter</artifactId>
                 <version>${oss.version}</version>
             </dependency>

@@ -1,10 +1,10 @@
 
-package com.bothsavage.common.log;
+package com.bothSavage.common.log;
 
-import com.bothsavage.admin.api.feign.RemoteLogService;
-import com.bothsavage.common.log.aspect.SysLogAspect;
-import com.bothsavage.common.log.config.PigLogProperties;
-import com.bothsavage.common.log.event.SysLogListener;
+import com.bothSavage.admin.api.feign.RemoteLogService;
+import com.bothSavage.common.log.aspect.SysLogAspect;
+import com.bothSavage.common.log.config.PigLogProperties;
+import com.bothSavage.common.log.event.SysLogListener;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

@@ -1,7 +1,7 @@
-package com.bothsavage.auth.support.sms;
+package com.bothSavage.auth.support.sms;
 
-import com.bothsavage.auth.support.base.OAuth2ResourceOwnerBaseAuthenticationProvider;
-import com.bothsavage.common.core.constant.SecurityConstants;
+import com.bothSavage.auth.support.base.OAuth2ResourceOwnerBaseAuthenticationProvider;
+import com.bothSavage.common.core.constant.SecurityConstants;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.security.authentication.AuthenticationManager;

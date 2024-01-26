@@ -1,9 +1,9 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 import cn.hutool.core.util.ArrayUtil;
-import com.bothsavage.common.xss.config.PigXssProperties;
+import com.bothSavage.common.xss.config.PigXssProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.web.method.HandlerMethod;

@@ -1,18 +1,18 @@
 
 
-package com.bothsavage.auth.config;
+package com.bothSavage.auth.config;
 
-import com.bothsavage.auth.support.CustomeOAuth2AccessTokenGenerator;
-import com.bothsavage.auth.support.core.CustomeOAuth2TokenCustomizer;
-import com.bothsavage.auth.support.core.FormIdentityLoginConfigurer;
-import com.bothsavage.auth.support.core.PigDaoAuthenticationProvider;
-import com.bothsavage.auth.support.handler.PigAuthenticationFailureEventHandler;
-import com.bothsavage.auth.support.handler.PigAuthenticationSuccessEventHandler;
-import com.bothsavage.auth.support.password.OAuth2ResourceOwnerPasswordAuthenticationConverter;
-import com.bothsavage.auth.support.password.OAuth2ResourceOwnerPasswordAuthenticationProvider;
-import com.bothsavage.auth.support.sms.OAuth2ResourceOwnerSmsAuthenticationConverter;
-import com.bothsavage.auth.support.sms.OAuth2ResourceOwnerSmsAuthenticationProvider;
-import com.bothsavage.common.core.constant.SecurityConstants;
+import com.bothSavage.auth.support.CustomeOAuth2AccessTokenGenerator;
+import com.bothSavage.auth.support.core.CustomeOAuth2TokenCustomizer;
+import com.bothSavage.auth.support.core.FormIdentityLoginConfigurer;
+import com.bothSavage.auth.support.core.PigDaoAuthenticationProvider;
+import com.bothSavage.auth.support.handler.PigAuthenticationFailureEventHandler;
+import com.bothSavage.auth.support.handler.PigAuthenticationSuccessEventHandler;
+import com.bothSavage.auth.support.password.OAuth2ResourceOwnerPasswordAuthenticationConverter;
+import com.bothSavage.auth.support.password.OAuth2ResourceOwnerPasswordAuthenticationProvider;
+import com.bothSavage.auth.support.sms.OAuth2ResourceOwnerSmsAuthenticationConverter;
+import com.bothSavage.auth.support.sms.OAuth2ResourceOwnerSmsAuthenticationProvider;
+import com.bothSavage.common.core.constant.SecurityConstants;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

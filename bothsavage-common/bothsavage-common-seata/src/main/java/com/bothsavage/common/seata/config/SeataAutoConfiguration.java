@@ -1,6 +1,6 @@
-package com.bothsavage.common.seata.config;
+package com.bothSavage.common.seata.config;
 
-import com.bothsavage.common.core.factory.YamlPropertySourceFactory;
+import com.bothSavage.common.core.factory.YamlPropertySourceFactory;
 import io.seata.spring.annotation.datasource.EnableAutoDataSourceProxy;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;

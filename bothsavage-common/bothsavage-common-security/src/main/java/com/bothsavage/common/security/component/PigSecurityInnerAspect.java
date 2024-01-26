@@ -1,9 +1,9 @@
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import cn.hutool.core.util.StrUtil;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.security.annotation.Inner;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.security.annotation.Inner;
 import javax.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

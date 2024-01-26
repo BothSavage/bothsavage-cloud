@@ -1,10 +1,10 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 import cn.hutool.core.util.StrUtil;
-import com.bothsavage.common.xss.config.PigXssProperties;
-import com.bothsavage.common.xss.utils.XssUtil;
+import com.bothSavage.common.xss.config.PigXssProperties;
+import com.bothSavage.common.xss.utils.XssUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

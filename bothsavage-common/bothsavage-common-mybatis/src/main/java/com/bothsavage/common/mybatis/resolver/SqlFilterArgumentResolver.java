@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.mybatis.resolver;
+package com.bothSavage.common.mybatis.resolver;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;

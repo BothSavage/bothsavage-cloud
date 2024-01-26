@@ -1,4 +1,4 @@
-package com.bothsavage.gateway.config;
+package com.bothSavage.gateway.config;
 
 import com.alibaba.nacos.client.naming.event.InstancesChangeEvent;
 import com.alibaba.nacos.common.notify.Event;

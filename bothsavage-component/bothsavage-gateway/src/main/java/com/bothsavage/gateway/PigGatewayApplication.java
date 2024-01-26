@@ -1,5 +1,5 @@
 
-package com.bothsavage.gateway;
+package com.bothSavage.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

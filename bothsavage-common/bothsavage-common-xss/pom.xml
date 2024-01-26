@@ -4,23 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage-common</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage-common</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
-    <artifactId>bothsavage-common-xss</artifactId>
+    <artifactId>bothSavage-common-xss</artifactId>
     <packaging>jar</packaging>
 
-    <description>bothsavagex xss 安全过滤插件 基于 JSOUP</description>
+    <description>bothSavagex xss 安全过滤插件 基于 JSOUP</description>
     <properties>
         <jsoup.version>1.15.3</jsoup.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-core</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-core</artifactId>
         </dependency>
 
         <dependency>

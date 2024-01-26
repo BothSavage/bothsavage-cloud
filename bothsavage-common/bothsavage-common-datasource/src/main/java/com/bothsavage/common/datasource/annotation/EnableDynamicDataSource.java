@@ -1,7 +1,7 @@
 
-package com.bothsavage.common.datasource.annotation;
+package com.bothSavage.common.datasource.annotation;
 
-import com.bothsavage.common.datasource.DynamicDataSourceAutoConfiguration;
+import com.bothSavage.common.datasource.DynamicDataSourceAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

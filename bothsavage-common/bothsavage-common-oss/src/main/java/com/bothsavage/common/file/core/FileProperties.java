@@ -1,9 +1,9 @@
 
 
-package com.bothsavage.common.file.core;
+package com.bothSavage.common.file.core;
 
-import com.bothsavage.common.file.local.LocalFileProperties;
-import com.bothsavage.common.file.oss.OssProperties;
+import com.bothSavage.common.file.local.LocalFileProperties;
+import com.bothSavage.common.file.oss.OssProperties;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

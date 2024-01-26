@@ -1,4 +1,4 @@
-package com.bothsavage.common.datasource.config;
+package com.bothSavage.common.datasource.config;
 
 import com.baomidou.dynamic.datasource.toolkit.DynamicDataSourceContextHolder;
 import org.springframework.core.Ordered;

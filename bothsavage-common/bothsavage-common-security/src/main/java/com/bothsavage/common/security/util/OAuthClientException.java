@@ -1,4 +1,4 @@
-package com.bothsavage.common.security.util;
+package com.bothSavage.common.security.util;
 
 import org.springframework.security.oauth2.core.OAuth2AuthenticationException;
 import org.springframework.security.oauth2.core.OAuth2Error;

@@ -1,4 +1,4 @@
-package com.bothsavage.common.mybatis.plugins;
+package com.bothSavage.common.mybatis.plugins;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.core.metadata.IPage;

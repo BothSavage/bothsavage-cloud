@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.log.event;
+package com.bothSavage.common.log.event;
 
 import cn.hutool.core.util.StrUtil;
 import com.fasterxml.jackson.annotation.JsonFilter;
@@ -7,11 +7,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
-import com.bothsavage.admin.api.entity.SysLog;
-import com.bothsavage.admin.api.feign.RemoteLogService;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.jackson.PigJavaTimeModule;
-import com.bothsavage.common.log.config.PigLogProperties;
+import com.bothSavage.admin.api.entity.SysLog;
+import com.bothSavage.admin.api.feign.RemoteLogService;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.jackson.PigJavaTimeModule;
+import com.bothSavage.common.log.config.PigLogProperties;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

@@ -1,6 +1,6 @@
-package com.bothsavage.common.log.event;
+package com.bothSavage.common.log.event;
 
-import com.bothsavage.admin.api.entity.SysLog;
+import com.bothSavage.admin.api.entity.SysLog;
 import lombok.Data;
 
 /**

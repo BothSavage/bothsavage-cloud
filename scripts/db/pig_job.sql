@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS `bothsavage_job`;
+DROP DATABASE IF EXISTS `bothSavage_job`;
 
-CREATE DATABASE  `bothsavage_job` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+CREATE DATABASE  `bothSavage_job` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
 
-USE bothsavage_job;
+USE bothSavage_job;
 
 -- ----------------------------
 -- Table structure for sys_job

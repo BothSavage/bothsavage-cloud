@@ -1,9 +1,9 @@
 
 
-package com.bothsavage.common.file.local;
+package com.bothSavage.common.file.local;
 
-import com.bothsavage.common.file.core.FileProperties;
-import com.bothsavage.common.file.core.FileTemplate;
+import com.bothSavage.common.file.core.FileProperties;
+import com.bothSavage.common.file.core.FileTemplate;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

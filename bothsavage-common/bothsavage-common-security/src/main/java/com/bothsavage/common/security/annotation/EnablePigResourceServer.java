@@ -1,8 +1,8 @@
 
-package com.bothsavage.common.security.annotation;
+package com.bothSavage.common.security.annotation;
 
-import com.bothsavage.common.security.component.PigResourceServerAutoConfiguration;
-import com.bothsavage.common.security.component.PigResourceServerConfiguration;
+import com.bothSavage.common.security.component.PigResourceServerAutoConfiguration;
+import com.bothSavage.common.security.component.PigResourceServerConfiguration;
 import org.springframework.context.annotation.Import;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 

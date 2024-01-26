@@ -5,22 +5,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage-common</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage-common</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
-    <artifactId>bothsavage-common-log</artifactId>
+    <artifactId>bothSavage-common-log</artifactId>
     <packaging>jar</packaging>
 
-    <description>bothsavage 日志服务</description>
+    <description>bothSavage 日志服务</description>
 
 
     <dependencies>
         <!--工具类核心包-->
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-core</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-core</artifactId>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
@@ -32,8 +32,8 @@
         </dependency>
         <!--UPMS接口模块-->
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-upms-api</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-upms-api</artifactId>
         </dependency>
         <!--安全依赖获取上下文信息-->
         <dependency>

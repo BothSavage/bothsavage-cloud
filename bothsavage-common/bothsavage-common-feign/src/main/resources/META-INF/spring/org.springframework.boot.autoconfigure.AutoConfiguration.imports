@@ -1,4 +1,4 @@
-com.bothsavage.common.feign.PigFeignAutoConfiguration
-com.bothsavage.common.feign.PigFeignRetryAutoConfiguration
-com.bothsavage.common.feign.sentinel.SentinelAutoConfiguration
-com.bothsavage.common.feign.sentinel.handle.GlobalBizExceptionHandler
+com.bothSavage.common.feign.PigFeignAutoConfiguration
+com.bothSavage.common.feign.PigFeignRetryAutoConfiguration
+com.bothSavage.common.feign.sentinel.SentinelAutoConfiguration
+com.bothSavage.common.feign.sentinel.handle.GlobalBizExceptionHandler

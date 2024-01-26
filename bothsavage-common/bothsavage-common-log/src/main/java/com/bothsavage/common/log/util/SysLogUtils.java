@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.log.util;
+package com.bothSavage.common.log.util;
 
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.util.ArrayUtil;
@@ -7,10 +7,10 @@ import cn.hutool.core.util.URLUtil;
 import cn.hutool.extra.servlet.JakartaServletUtil;
 import cn.hutool.extra.servlet.ServletUtil;
 import cn.hutool.http.HttpUtil;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.util.SpringContextHolder;
-import com.bothsavage.common.log.config.PigLogProperties;
-import com.bothsavage.common.log.event.SysLogEventSource;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.util.SpringContextHolder;
+import com.bothSavage.common.log.config.PigLogProperties;
+import com.bothSavage.common.log.event.SysLogEventSource;
 import lombok.experimental.UtilityClass;
 import org.springframework.core.StandardReflectionParameterNameDiscoverer;
 import org.springframework.expression.EvaluationContext;

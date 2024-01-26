@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.log.init;
+package com.bothSavage.common.log.init;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.env.EnvironmentPostProcessor;

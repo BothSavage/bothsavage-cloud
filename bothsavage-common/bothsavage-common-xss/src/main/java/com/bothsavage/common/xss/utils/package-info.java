@@ -1,3 +1,3 @@
 
 
-package com.bothsavage.common.xss.utils;
+package com.bothSavage.common.xss.utils;

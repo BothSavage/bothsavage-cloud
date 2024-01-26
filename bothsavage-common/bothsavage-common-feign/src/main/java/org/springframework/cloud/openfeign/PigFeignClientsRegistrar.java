@@ -2,7 +2,7 @@
 
 package org.springframework.cloud.openfeign;
 
-import com.bothsavage.common.feign.PigFeignAutoConfiguration;
+import com.bothSavage.common.feign.PigFeignAutoConfiguration;
 import lombok.Getter;
 import org.springframework.beans.factory.BeanClassLoaderAware;
 import org.springframework.beans.factory.config.BeanDefinitionHolder;

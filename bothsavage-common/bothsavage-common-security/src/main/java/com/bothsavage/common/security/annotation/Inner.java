@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.security.annotation;
+package com.bothSavage.common.security.annotation;
 
 import java.lang.annotation.*;
 

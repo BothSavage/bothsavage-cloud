@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.feign.sentinel.ext;
+package com.bothSavage.common.feign.sentinel.ext;
 
 import com.alibaba.cloud.sentinel.feign.SentinelContractHolder;
 import com.alibaba.cloud.sentinel.feign.SentinelInvocationHandler;
@@ -9,8 +9,8 @@ import com.alibaba.csp.sentinel.SphU;
 import com.alibaba.csp.sentinel.Tracer;
 import com.alibaba.csp.sentinel.context.ContextUtil;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.bothsavage.common.core.util.R;
-import com.bothsavage.common.feign.annotation.FeignRetry;
+import com.bothSavage.common.core.util.R;
+import com.bothSavage.common.feign.annotation.FeignRetry;
 import feign.Feign;
 import feign.InvocationHandlerFactory;
 import feign.MethodMetadata;

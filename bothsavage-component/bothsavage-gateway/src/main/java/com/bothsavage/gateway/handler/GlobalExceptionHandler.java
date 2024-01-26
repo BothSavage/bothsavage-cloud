@@ -1,9 +1,9 @@
 
-package com.bothsavage.gateway.handler;
+package com.bothSavage.gateway.handler;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.bothsavage.common.core.util.R;
+import com.bothSavage.common.core.util.R;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.reactive.error.ErrorWebExceptionHandler;

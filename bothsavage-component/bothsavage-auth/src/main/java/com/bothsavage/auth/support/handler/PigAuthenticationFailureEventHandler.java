@@ -1,16 +1,16 @@
 
-package com.bothsavage.auth.support.handler;
+package com.bothSavage.auth.support.handler;
 
 import cn.hutool.core.util.StrUtil;
-import com.bothsavage.admin.api.entity.SysLog;
-import com.bothsavage.common.core.constant.CommonConstants;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.util.MsgUtils;
-import com.bothsavage.common.core.util.R;
-import com.bothsavage.common.core.util.SpringContextHolder;
-import com.bothsavage.common.log.event.SysLogEvent;
-import com.bothsavage.common.log.util.LogTypeEnum;
-import com.bothsavage.common.log.util.SysLogUtils;
+import com.bothSavage.admin.api.entity.SysLog;
+import com.bothSavage.common.core.constant.CommonConstants;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.util.MsgUtils;
+import com.bothSavage.common.core.util.R;
+import com.bothSavage.common.core.util.SpringContextHolder;
+import com.bothSavage.common.log.event.SysLogEvent;
+import com.bothSavage.common.log.util.LogTypeEnum;
+import com.bothSavage.common.log.util.SysLogUtils;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import lombok.SneakyThrows;

@@ -1,10 +1,10 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 import cn.hutool.core.util.CharsetUtil;
-import com.bothsavage.common.xss.config.PigXssProperties;
-import com.bothsavage.common.xss.utils.XssUtil;
+import com.bothSavage.common.xss.config.PigXssProperties;
+import com.bothSavage.common.xss.utils.XssUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.internal.StringUtil;
 import org.jsoup.nodes.Document;

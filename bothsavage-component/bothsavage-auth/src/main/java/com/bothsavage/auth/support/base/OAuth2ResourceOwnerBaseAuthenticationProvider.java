@@ -1,8 +1,8 @@
-package com.bothsavage.auth.support.base;
+package com.bothSavage.auth.support.base;
 
 import cn.hutool.extra.spring.SpringUtil;
-import com.bothsavage.common.security.util.OAuth2ErrorCodesExpand;
-import com.bothsavage.common.security.util.ScopeException;
+import com.bothSavage.common.security.util.OAuth2ErrorCodesExpand;
+import com.bothSavage.common.security.util.ScopeException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.context.support.MessageSourceAccessor;

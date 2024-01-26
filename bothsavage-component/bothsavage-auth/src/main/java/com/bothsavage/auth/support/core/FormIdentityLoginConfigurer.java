@@ -1,7 +1,7 @@
-package com.bothsavage.auth.support.core;
+package com.bothSavage.auth.support.core;
 
-import com.bothsavage.auth.support.handler.FormAuthenticationFailureHandler;
-import com.bothsavage.auth.support.handler.SsoLogoutSuccessHandler;
+import com.bothSavage.auth.support.handler.FormAuthenticationFailureHandler;
+import com.bothSavage.auth.support.handler.SsoLogoutSuccessHandler;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 

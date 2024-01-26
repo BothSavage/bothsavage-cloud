@@ -1,10 +1,10 @@
 
 
-package com.bothsavage.common.file;
+package com.bothSavage.common.file;
 
-import com.bothsavage.common.file.core.FileProperties;
-import com.bothsavage.common.file.local.LocalFileAutoConfiguration;
-import com.bothsavage.common.file.oss.OssAutoConfiguration;
+import com.bothSavage.common.file.core.FileProperties;
+import com.bothSavage.common.file.local.LocalFileAutoConfiguration;
+import com.bothSavage.common.file.oss.OssAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Import;
 

@@ -1,4 +1,4 @@
-package com.bothsavage.common.security.service;
+package com.bothSavage.common.security.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.RedisTemplate;

@@ -1,14 +1,14 @@
 
 
-package com.bothsavage.common.feign.sentinel;
+package com.bothSavage.common.feign.sentinel;
 
 import com.alibaba.cloud.sentinel.feign.SentinelFeignAutoConfiguration;
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.RequestOriginParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.bothsavage.common.feign.sentinel.ext.PigSentinelFeign;
-import com.bothsavage.common.feign.sentinel.handle.PigUrlBlockHandler;
-import com.bothsavage.common.feign.sentinel.parser.PigHeaderRequestOriginParser;
+import com.bothSavage.common.feign.sentinel.ext.PigSentinelFeign;
+import com.bothSavage.common.feign.sentinel.handle.PigUrlBlockHandler;
+import com.bothSavage.common.feign.sentinel.parser.PigHeaderRequestOriginParser;
 import feign.Feign;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

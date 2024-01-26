@@ -1,8 +1,8 @@
 
-package com.bothsavage.common.feign.sentinel.handle;
+package com.bothSavage.common.feign.sentinel.handle;
 
 import com.alibaba.csp.sentinel.Tracer;
-import com.bothsavage.common.core.util.R;
+import com.bothSavage.common.core.util.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.core.annotation.Order;
@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  * <p>
- * 全局异常处理器结合sentinel 全局异常处理器不能作用在 oauth server https://gitee.com/log4j/bothsavage/issues/I1M2TJ
+ * 全局异常处理器结合sentinel 全局异常处理器不能作用在 oauth server https://gitee.com/log4j/bothSavage/issues/I1M2TJ
  * </p>
  *
 

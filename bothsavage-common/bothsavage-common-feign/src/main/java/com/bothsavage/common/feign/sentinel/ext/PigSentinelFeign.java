@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.feign.sentinel.ext;
+package com.bothSavage.common.feign.sentinel.ext;
 
 import com.alibaba.cloud.sentinel.feign.SentinelContractHolder;
 import feign.Contract;

@@ -1,4 +1,4 @@
 /**
  * 密码模式
  */
-package com.bothsavage.auth.support.password;
+package com.bothSavage.auth.support.password;

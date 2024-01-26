@@ -1,8 +1,8 @@
 
-package com.bothsavage.gateway.filter;
+package com.bothSavage.gateway.filter;
 
-import com.bothsavage.common.core.constant.CommonConstants;
-import com.bothsavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.constant.CommonConstants;
+import com.bothSavage.common.core.constant.SecurityConstants;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;

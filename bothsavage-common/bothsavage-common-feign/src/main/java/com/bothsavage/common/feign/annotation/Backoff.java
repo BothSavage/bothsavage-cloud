@@ -1,4 +1,4 @@
-package com.bothsavage.common.feign.annotation;
+package com.bothSavage.common.feign.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

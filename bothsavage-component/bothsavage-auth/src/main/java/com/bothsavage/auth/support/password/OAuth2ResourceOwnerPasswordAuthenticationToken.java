@@ -1,6 +1,6 @@
-package com.bothsavage.auth.support.password;
+package com.bothSavage.auth.support.password;
 
-import com.bothsavage.auth.support.base.OAuth2ResourceOwnerBaseAuthenticationToken;
+import com.bothSavage.auth.support.base.OAuth2ResourceOwnerBaseAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.core.AuthorizationGrantType;
 

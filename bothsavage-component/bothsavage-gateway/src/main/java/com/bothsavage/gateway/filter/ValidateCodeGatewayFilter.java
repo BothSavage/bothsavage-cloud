@@ -1,17 +1,17 @@
 
-package com.bothsavage.gateway.filter;
+package com.bothSavage.gateway.filter;
 
 import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.bothsavage.common.core.constant.CacheConstants;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.exception.ValidateCodeException;
-import com.bothsavage.common.core.util.R;
-import com.bothsavage.common.core.util.WebUtils;
-import com.bothsavage.gateway.config.GatewayConfigProperties;
+import com.bothSavage.common.core.constant.CacheConstants;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.exception.ValidateCodeException;
+import com.bothSavage.common.core.util.R;
+import com.bothSavage.common.core.util.WebUtils;
+import com.bothSavage.gateway.config.GatewayConfigProperties;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

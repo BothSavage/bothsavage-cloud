@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.log.config;
+package com.bothSavage.common.log.config;
 
 import lombok.Getter;
 import lombok.Setter;

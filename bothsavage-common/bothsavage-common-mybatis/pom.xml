@@ -5,15 +5,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.bothsavage</groupId>
-        <artifactId>bothsavage-common</artifactId>
+        <groupId>com.bothSavage</groupId>
+        <artifactId>bothSavage-common</artifactId>
         <version>3.7.1-JDK8</version>
     </parent>
 
-    <artifactId>bothsavage-common-mybatis</artifactId>
+    <artifactId>bothSavage-common-mybatis</artifactId>
     <packaging>jar</packaging>
 
-    <description>bothsavage mybatis 封装</description>
+    <description>bothSavage mybatis 封装</description>
 
 
     <dependencies>
@@ -49,8 +49,8 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.bothsavage</groupId>
-            <artifactId>bothsavage-common-core</artifactId>
+            <groupId>com.bothSavage</groupId>
+            <artifactId>bothSavage-common-core</artifactId>
         </dependency>
     </dependencies>
 </project>

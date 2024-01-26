@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.datasource.config;
+package com.bothSavage.common.datasource.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

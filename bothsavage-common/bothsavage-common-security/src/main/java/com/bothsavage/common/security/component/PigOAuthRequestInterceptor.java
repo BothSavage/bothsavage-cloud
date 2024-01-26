@@ -1,9 +1,9 @@
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import cn.hutool.core.collection.CollUtil;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.core.util.WebUtils;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.core.util.WebUtils;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 import lombok.RequiredArgsConstructor;

@@ -1,6 +1,6 @@
-package com.bothsavage.common.swagger.config;
+package com.bothSavage.common.swagger.config;
 
-import com.bothsavage.common.swagger.annotation.EnablePigDoc;
+import com.bothSavage.common.swagger.annotation.EnablePigDoc;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;

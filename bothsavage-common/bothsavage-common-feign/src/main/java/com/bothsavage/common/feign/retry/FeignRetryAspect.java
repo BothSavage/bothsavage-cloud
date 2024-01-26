@@ -1,6 +1,6 @@
-package com.bothsavage.common.feign.retry;
+package com.bothSavage.common.feign.retry;
 
-import com.bothsavage.common.feign.annotation.FeignRetry;
+import com.bothSavage.common.feign.annotation.FeignRetry;
 import feign.RetryableException;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;

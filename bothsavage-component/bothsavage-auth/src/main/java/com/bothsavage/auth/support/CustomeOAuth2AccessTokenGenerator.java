@@ -1,4 +1,4 @@
-package com.bothsavage.auth.support;
+package com.bothSavage.auth.support;
 
 import org.springframework.lang.Nullable;
 import org.springframework.security.oauth2.core.ClaimAccessor;

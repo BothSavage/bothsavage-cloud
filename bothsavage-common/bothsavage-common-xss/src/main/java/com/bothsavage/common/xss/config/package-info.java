@@ -1,3 +1,3 @@
 
 
-package com.bothsavage.common.xss.config;
+package com.bothSavage.common.xss.config;

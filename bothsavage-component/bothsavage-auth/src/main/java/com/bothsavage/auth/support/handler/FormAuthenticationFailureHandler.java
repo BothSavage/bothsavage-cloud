@@ -1,9 +1,9 @@
 
-package com.bothsavage.auth.support.handler;
+package com.bothSavage.auth.support.handler;
 
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.http.HttpUtil;
-import com.bothsavage.common.core.util.WebUtils;
+import com.bothSavage.common.core.util.WebUtils;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import lombok.SneakyThrows;

@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.xss.core;
+package com.bothSavage.common.xss.core;
 
 /**
  * xss 数据处理类型

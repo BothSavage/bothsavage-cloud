@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.log.util;
+package com.bothSavage.common.log.util;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

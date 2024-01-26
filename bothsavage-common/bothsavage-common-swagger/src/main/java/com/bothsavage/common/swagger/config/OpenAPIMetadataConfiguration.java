@@ -1,4 +1,4 @@
-package com.bothsavage.common.swagger.config;
+package com.bothSavage.common.swagger.config;
 
 import lombok.Setter;
 import org.springframework.beans.BeansException;

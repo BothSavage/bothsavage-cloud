@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.log.annotation;
+package com.bothSavage.common.log.annotation;
 
 import java.lang.annotation.*;
 

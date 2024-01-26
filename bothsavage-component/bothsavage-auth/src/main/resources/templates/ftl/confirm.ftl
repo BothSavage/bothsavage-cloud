@@ -18,13 +18,13 @@
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">
 			<p class="navbar-text navbar-right">
-				<a target="_blank" href="https://bothsavage.com">技术支持</a>
+				<a target="_blank" href="https://bothSavage.com">技术支持</a>
 			</p>
 			<p class="navbar-text navbar-right">
                 <#if principalName=="anonymousUser">
 					未登录
                 <#else>
-					<a target="_blank" href="https://bothsavage.com">${principalName}</a>
+					<a target="_blank" href="https://bothSavage.com">${principalName}</a>
                 </#if>
 			</p>
 		</div>

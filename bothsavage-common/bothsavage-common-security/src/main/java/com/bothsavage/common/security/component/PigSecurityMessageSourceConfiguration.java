@@ -1,5 +1,5 @@
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.context.MessageSource;

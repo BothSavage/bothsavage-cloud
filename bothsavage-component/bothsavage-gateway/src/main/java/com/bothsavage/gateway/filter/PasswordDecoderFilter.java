@@ -1,5 +1,5 @@
 
-package com.bothsavage.gateway.filter;
+package com.bothSavage.gateway.filter;
 
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.core.util.StrUtil;
@@ -8,8 +8,8 @@ import cn.hutool.crypto.Padding;
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.crypto.symmetric.AES;
 import cn.hutool.http.HttpUtil;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.gateway.config.GatewayConfigProperties;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.gateway.config.GatewayConfigProperties;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.gateway.filter.GatewayFilter;

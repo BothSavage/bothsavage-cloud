@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.datasource;
+package com.bothSavage.common.datasource;
 
 import com.baomidou.dynamic.datasource.creator.DataSourceCreator;
 import com.baomidou.dynamic.datasource.creator.DefaultDataSourceCreator;
@@ -10,10 +10,10 @@ import com.baomidou.dynamic.datasource.processor.DsProcessor;
 import com.baomidou.dynamic.datasource.processor.DsSessionProcessor;
 import com.baomidou.dynamic.datasource.processor.DsSpelExpressionProcessor;
 import com.baomidou.dynamic.datasource.provider.DynamicDataSourceProvider;
-import com.bothsavage.common.datasource.config.ClearTtlDataSourceFilter;
-import com.bothsavage.common.datasource.config.DataSourceProperties;
-import com.bothsavage.common.datasource.config.JdbcDynamicDataSourceProvider;
-import com.bothsavage.common.datasource.config.LastParamDsProcessor;
+import com.bothSavage.common.datasource.config.ClearTtlDataSourceFilter;
+import com.bothSavage.common.datasource.config.DataSourceProperties;
+import com.bothSavage.common.datasource.config.JdbcDynamicDataSourceProvider;
+import com.bothSavage.common.datasource.config.LastParamDsProcessor;
 import org.jasypt.encryption.StringEncryptor;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;

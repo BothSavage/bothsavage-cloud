@@ -1,9 +1,9 @@
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import cn.hutool.extra.spring.SpringUtil;
-import com.bothsavage.common.core.constant.SecurityConstants;
-import com.bothsavage.common.security.service.PigUser;
-import com.bothsavage.common.security.service.PigUserDetailsService;
+import com.bothSavage.common.core.constant.SecurityConstants;
+import com.bothSavage.common.security.service.PigUser;
+import com.bothSavage.common.security.service.PigUserDetailsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.Ordered;

@@ -1,6 +1,6 @@
 
 
-package com.bothsavage.common.file.oss;
+package com.bothSavage.common.file.oss;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

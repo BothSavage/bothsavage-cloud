@@ -1,9 +1,9 @@
 
-package com.bothsavage.gateway.handler;
+package com.bothSavage.gateway.handler;
 
-import com.bothsavage.captcha.ArithmeticCaptcha;
-import com.bothsavage.common.core.constant.CacheConstants;
-import com.bothsavage.common.core.constant.SecurityConstants;
+import com.bothSavage.captcha.ArithmeticCaptcha;
+import com.bothSavage.common.core.constant.CacheConstants;
+import com.bothSavage.common.core.constant.SecurityConstants;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.ByteArrayResource;

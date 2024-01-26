@@ -1,9 +1,9 @@
 
-package com.bothsavage.common.security.component;
+package com.bothSavage.common.security.component;
 
 import cn.hutool.core.util.ReUtil;
 import cn.hutool.extra.spring.SpringUtil;
-import com.bothsavage.common.security.annotation.Inner;
+import com.bothSavage.common.security.annotation.Inner;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;

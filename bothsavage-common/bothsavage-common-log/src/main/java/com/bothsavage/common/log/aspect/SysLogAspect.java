@@ -1,12 +1,12 @@
 
-package com.bothsavage.common.log.aspect;
+package com.bothSavage.common.log.aspect;
 
 import cn.hutool.core.util.StrUtil;
-import com.bothsavage.common.core.util.SpringContextHolder;
-import com.bothsavage.common.log.event.SysLogEvent;
-import com.bothsavage.common.log.event.SysLogEventSource;
-import com.bothsavage.common.log.util.LogTypeEnum;
-import com.bothsavage.common.log.util.SysLogUtils;
+import com.bothSavage.common.core.util.SpringContextHolder;
+import com.bothSavage.common.log.event.SysLogEvent;
+import com.bothSavage.common.log.event.SysLogEventSource;
+import com.bothSavage.common.log.util.LogTypeEnum;
+import com.bothSavage.common.log.util.SysLogUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +28,7 @@ public class SysLogAspect {
 
 	@Around("@annotation(sysLog)")
 	@SneakyThrows
-	public Object around(ProceedingJoinPoint point, com.bothsavage.common.log.annotation.SysLog sysLog) {
+	public Object around(ProceedingJoinPoint point, com.bothSavage.common.log.annotation.SysLog sysLog) {
 		String strClassName = point.getTarget().getClass().getName();
 		String strMethodName = point.getSignature().getName();
 		log.debug("[类名]:{},[方法]:{}", strClassName, strMethodName);
